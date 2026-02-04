@@ -16,10 +16,6 @@ module.exports = `.settings-container {
     display: inline;
 }
 
-.settings-button .settings-text {
-    display: inline;
-}
-
 .settings-button .settings-icon {
     display: none;
 }
@@ -33,7 +29,7 @@ module.exports = `.settings-container {
         display: none;
     }
 
-    .settings-text .settings-icon {
+    .settings-button .settings-icon {
         display: inline;
     }
 }
