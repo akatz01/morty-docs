@@ -22,9 +22,9 @@ const ThemeToggle = () => {
         </button>
 
         <div id='settings-dropdown' className='settings-dropdown' role='menu'>
-          <button className='theme-option' data-theme='light' role='menuItem'>Light</button>
-          <button className='theme-option' data-theme='dark' role='menuItem'>Dark</button>
-          <button className='theme-option' data-theme='system' role='menuItem'>System</button>
+          <button className='theme-option' data-theme='light' role='menuitem'>Light</button>
+          <button className='theme-option' data-theme='dark' role='menuitem'>Dark</button>
+          <button className='theme-option' data-theme='system' role='menuitem'>System</button>
         </div>
       </div>
       <script dangerouslySetInnerHTML={{ __html: toggleInLine }} />
